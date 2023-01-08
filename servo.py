@@ -1,5 +1,5 @@
 from gpiozero import Servo
-import time
+from time import sleep
 
 from gpiozero.pins.pigpio import PiGPIOFactory
 
